@@ -1,0 +1,17 @@
+//Encryption and hashing algorithms 
+install-package microsoft.identitymodel.tokens
+//Create JWT and validate them
+install-package System.IdentityModel.Tokens.Jwt
+
+//Add middleware to authenticate with jwtbearer
+install-package microsoft.aspnetcore.authentication.jwtbearer
+
+//Provide the functionalities you need to manage identity
+install-package microsoft.aspnetcore.identity
+//Provide the required db models to manage your identity 
+install-package microsoft.aspnetcore.identity.EntityFrameworkCore
+
+//Ef core packages
+Install-package Microsoft.EntityFrameworkCore.SqlServer
+Install-package Microsoft.EntityFrameworkCore
+Install-package Microsoft.EntityFrameworkCore.Tools
